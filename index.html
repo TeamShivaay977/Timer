@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">Action Will Be Live In</h1>
+    <div class="timer-container">
+        <div class="timer-section">
+            <svg class="progress-ring" width="120" height="120">
+                <circle class="progress-ring__circle hours" stroke-width="10" fill="transparent" r="54" cx="60" cy="60"/>
+            </svg>
+            <div class="timer-text" id="hours">00</div>
+            <div class="label">Hours</div>
+        </div>
+        <div class="timer-section">
+            <svg class="progress-ring" width="120" height="120">
+                <circle class="progress-ring__circle minutes" stroke-width="10" fill="transparent" r="54" cx="60" cy="60"/>
+            </svg>
+            <div class="timer-text" id="minutes">00</div>
+            <div class="label">Minutes</div>
+        </div>
+        <div class="timer-section">
+            <svg class="progress-ring" width="120" height="120">
+                <circle class="progress-ring__circle seconds" stroke-width="10" fill="transparent" r="54" cx="60" cy="60"/>
+            </svg>
+            <div class="timer-text" id="seconds">00</div>
+            <div class="label">Seconds</div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
